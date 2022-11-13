@@ -1,23 +1,23 @@
 {
-  "name": "pocketbase",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "start": "concurrently \"node index.js\"  \"sudo ./pocketbase serve --http='127.0.0.1:80'\""
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/Yuvraj-choudhary/pocketbase.git"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/Yuvraj-choudhary/pocketbase/issues"
-  },
-  "homepage": "https://github.com/Yuvraj-choudhary/pocketbase#readme",
-  "dependencies": {
-    "concurrently": "^7.5.0"
-  }
+   "name": "pocketbase",
+   "version": "1.0.0",
+   "description": "",
+   "main": "index.js",
+   "scripts": {
+      "start": "concurrently \"node index.js\"  \"./pocketbase serve\""
+   },
+   "repository": {
+      "type": "git",
+      "url": "git+https://github.com/Yuvraj-choudhary/pocketbase.git"
+   },
+   "keywords": [],
+   "author": "",
+   "license": "ISC",
+   "bugs": {
+      "url": "https://github.com/Yuvraj-choudhary/pocketbase/issues"
+   },
+   "homepage": "https://github.com/Yuvraj-choudhary/pocketbase#readme",
+   "dependencies": {
+      "concurrently": "^7.5.0"
+   }
 }
