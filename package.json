@@ -4,7 +4,7 @@
    "description": "",
    "main": "index.js",
    "scripts": {
-      "start": "concurrently \"node index.js\"  \"./pocketbase serve\""
+      "start": "./pocketbase serve --http=127.0.0.1:$PORT"
    },
    "repository": {
       "type": "git",
